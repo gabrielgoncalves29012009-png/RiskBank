@@ -1,0 +1,63 @@
+🏦 RiskBank — Simulador de Análise de Crédito
+📌 Sobre o projeto
+
+O RiskBank é um simulador educacional de análise de crédito desenvolvido em Java, com o objetivo de colocar em prática meus conhecimentos em lógica de programação.
+
+O sistema utiliza informações de um cliente para calcular o valor das parcelas, identificar o percentual de renda comprometida e apresentar um resultado com base em regras fictícias.
+
+Este projeto foi desenvolvido durante minha jornada de aprendizado em programação.
+
+⚙️ Funcionalidades
+Cadastro de informações do cliente por meio de variáveis.
+Validação de dados, como salário negativo e quantidade de parcelas inválida.
+Verificação de idade mínima e renda mínima.
+Cálculo do valor de cada parcela.
+Cálculo da renda comprometida.
+Cálculo do percentual de comprometimento financeiro.
+Classificação do resultado da análise.
+Exibição das informações no terminal.
+📊 Regras do simulador
+Condição	Resultado
+Cliente menor de 18 anos	Empréstimo não autorizado
+Salário abaixo de R$ 2.000	Empréstimo não autorizado
+Renda comprometida acima de 40%	Empréstimo não autorizado
+Renda comprometida acima de 30% até 40%	Análise adicional
+Renda comprometida até 30%	Empréstimo pré-aprovado
+
+O sistema também verifica valores inválidos antes de realizar os cálculos.
+
+Observação: as regras são fictícias e foram criadas exclusivamente para fins educacionais. O projeto não realiza análises bancárias reais.
+
+💻 Tecnologias utilizadas
+Java
+Visual Studio Code
+GitHub
+▶️ Como executar
+Tenha o JDK instalado no computador.
+Baixe o arquivo Main.java.
+Abra o arquivo no VS Code.
+Execute o programa utilizando a opção Run.
+
+Também é possível executar pelo terminal:
+
+javac Main.java
+java Main
+
+Os dados do cliente podem ser alterados diretamente nas variáveis do código para testar diferentes situações.
+
+🧠 Conhecimentos aplicados
+
+Durante o desenvolvimento, pratiquei:
+
+Tipos de dados e declaração de variáveis.
+Operadores matemáticos.
+Cálculos percentuais.
+Estruturas condicionais if, else if e else.
+Validação de informações.
+Testes com diferentes cenários.
+Organização e apresentação de resultados no terminal.
+🎯 Objetivo
+
+Meu objetivo com este projeto foi fortalecer minha base em Java e lógica de programação, aprendendo a transformar regras de negócio fictícias em condições e cálculos dentro de um programa.
+
+Desenvolvido por Gabriel Gonçalves.
